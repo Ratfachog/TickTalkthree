@@ -1,5 +1,6 @@
 package com.dperky2910.ticktalkthree;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +21,8 @@ public class AlarmRecyclerAdapter extends RecyclerView.Adapter<AlarmViewHolder> 
 
         AlarmViewHolder alarmViewHolder = new AlarmViewHolder(view);
         return alarmViewHolder;
+        /* below didn't work. Ask on Stackoverflow.
+        String alarmDefaultTitle = Integer.getInteger(R.string.default_alarm_name).toString(); */
     }
 
     @Override
