@@ -1,0 +1,8 @@
+<resources>
+    //Tab Layout
+    <string name="app_name">TickTalk</string>
+    <string name="tab_text_1">Alarms</string>
+    <string name="tab_text_2">Facts</string>
+    //
+    <string name="default_alarm_name">Alarm</string>
+</resources>
